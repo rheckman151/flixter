@@ -75,7 +75,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'simple_form', '4.1'
 gem 'devise'
-gem 'carrierwave'
+gem 'carrierwave', '~> 1.0'
 gem 'mini_magick'
 gem 'carrierwave-aws'
 gem 'stripe'
@@ -83,3 +83,4 @@ gem 'figaro'
 gem 'ranked-model'
 gem 'fog-aws'
 gem 'font-awesome-rails'
+gem 'jquery-ui-rails'

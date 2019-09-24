@@ -8,4 +8,9 @@ before_action :authenticate_user!
     @course = Course.find(params[:id])
   end
 
+  private
+
+  def course_params
+    params.require(:course).permit(:description, :cost, :image)
+  end
 end
