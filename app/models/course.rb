@@ -16,16 +16,5 @@ class Course < ApplicationRecord
   def premium?
     ! free?
   end
-#   u = Image.new
-# u.image = params[:file] # Assign a file like this, or
 
-# # like this
-# File.open('somewhere') do |f|
-#   u.image = f
-# end
-
-# u.save!
-# u.image.url # => '/url/to/file.png'
-# u.image.current_path # => 'path/to/file.png'
-# u.image_identifier # => 'file.png'
 end
